@@ -29,3 +29,6 @@ config :sling, Sling.Repo,
   database: "sling_dev",
   hostname: "localhost",
   pool_size: 10
+
+# Imported Config from 'dev.secret.exs' to hide details.
+import_config "dev.secret.exs"
